@@ -1,6 +1,6 @@
 node {
 
-git branch: 'main', credentialsId: '01', url: 'https://github.com/amitvashisttech/devops301-mindtree-09-Jan-2021.git'
+git branch: 'master', credentialsId: '01', url: 'https://github.com/amitvashisttech/devops301-mindtree-09-Jan-2021.git'
 
 sh 'mvn clean -f 01-Jenkins/petclinic-code/pom.xml'
 sh 'mvn compile -f 01-Jenkins/petclinic-code/pom.xml'
